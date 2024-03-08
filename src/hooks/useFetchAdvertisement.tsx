@@ -8,8 +8,9 @@ type Advertisement = {
 };
 export default function useFetchAdvertisement() {
 	const [data, setData] = useState<Advertisement[] | null>();
+	console.log(data);
 	useEffect(() => {
-		fetch('../data/data.json')
+		fetch('/data/data.json')
 			.then((res) => res.json())
 			.then((res) => setData(res))
 			.catch((e: Error) => console.log(e.message));

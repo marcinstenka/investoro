@@ -1,5 +1,5 @@
 import React from 'react';
-import useFetchAdvertisement from '../hooks/useFetchAdvertisement';
+import useFetchAdvertisement from '../hooks/useFetchAdvertisement.tsx';
 
 export default function Home() {
 	const data = useFetchAdvertisement();
