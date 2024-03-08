@@ -1,13 +1,16 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import NotFound from './pages/NotFound';
 
 function App() {
 	return (
-		<div className='App'>
-			<img
-				src='https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-				alt=''
-			/>
-		</div>
+		<BrowserRouter>
+			<Routes>
+				<Route path='/' element={<Home />} />
+				<Route path='*' element={<NotFound />} />
+			</Routes>
+		</BrowserRouter>
 	);
 }
 
