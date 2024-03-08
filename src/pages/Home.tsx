@@ -5,11 +5,14 @@ export default function Home() {
 	const data = useFetchAdvertisement();
 	if (!data) return;
 	return (
-		<main>
+		<main className='content'>
 			{data.map((item) => (
-				<div key={item.id}>
+				<div className='item' key={item.id}>
 					<p>{item.title}</p>
-					<img src={item.photo} alt={item.description} />
+					<div className='img_container'>
+						<img src={item.photo} alt={item.description} />
+					</div>
+					<p>{item.price}</p>
 				</div>
 			))}
 		</main>
