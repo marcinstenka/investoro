@@ -1,19 +1,8 @@
-import React, { useEffect, useState } from 'react';
-type Advertisement = {
-	id: number;
-	title: string;
-	description: string;
-	price: number;
-	photo: string;
-};
+import React from 'react';
+import useFetchAdvertisement from '../hooks/useFetchAdvertisement';
+
 export default function Home() {
-	const [data, setData] = useState<Advertisement[] | null>();
-	useEffect(() => {
-		fetch('../data/data.json')
-			.then((res) => res.json())
-			.then((res) => setData(res))
-			.catch((e: Error) => console.log(e.message));
-	}, []);
+	const data = useFetchAdvertisement();
 	if (!data) return;
 	return (
 		<main>
