@@ -4,104 +4,104 @@
 		"title": "Nowoczesne mieszkanie 2-pokojowe",
 		"description": "Nowe mieszkanie zlokalizowane w centrum miasta. Doskonały dostęp do komunikacji publicznej.",
 		"price": 350000.0,
-		"photo": "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"photo": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 	},
 	{
 		"id": 1,
 		"title": "Dom jednorodzinny z ogrodem",
 		"description": "Przestronny dom z dużym ogrodem. Spokojna okolica, idealna dla rodzin.",
 		"price": 700000.0,
-		"photo": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"photo": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 	},
 	{
 		"id": 2,
 		"title": "Mieszkanie na parterze z tarasem",
 		"description": "Komfortowe mieszkanie na parterze z tarasem. Bliskość sklepów i placów zabaw.",
 		"price": 280000.0,
-		"photo": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"photo": "https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 	},
 	{
 		"id": 3,
 		"title": "Luksusowa willa z basenem",
 		"description": "Willa z pięknym widokiem, basenem i nowoczesnym wyposażeniem. Eleganckie wnętrza.",
 		"price": 1500000.0,
-		"photo": "https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"photo": "https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 	},
 	{
 		"id": 4,
 		"title": "Apartament z widokiem na morze",
 		"description": "Elegancki apartament z przepięknym widokiem na morze. W pełni umeblowany.",
 		"price": 500000.0,
-		"photo": "https://images.pexels.com/photos/206172/pexels-photo-206172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"photo": "https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 	},
 	{
 		"id": 5,
 		"title": "Działka budowlana z planem zagospodarowania",
 		"description": "Działka zatwierdzona pod budowę domu jednorodzinnego. Wszystkie media w miejscu.",
 		"price": 120000.0,
-		"photo": "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"photo": "https://images.pexels.com/photos/262405/pexels-photo-262405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 	},
 	{
 		"id": 6,
 		"title": "Mieszkanie w apartamentowcu z ochroną",
 		"description": "Nowoczesne mieszkanie w budynku z ochroną i parkingiem podziemnym. Wysoki standard.",
 		"price": 420000.0,
-		"photo": "https://images.pexels.com/photos/208736/pexels-photo-208736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"photo": "https://images.pexels.com/photos/259593/pexels-photo-259593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 	},
 	{
 		"id": 7,
 		"title": "Dom z antresolą i ogrodem",
 		"description": "Dom dwupiętrowy z antresolą, idealny dla rodziny. Duży ogród z miejscem do grillowania.",
 		"price": 600000.0,
-		"photo": "https://images.pexels.com/photos/209296/pexels-photo-209296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"photo": "https://images.pexels.com/photos/2155202/pexels-photo-2155202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 	},
 	{
 		"id": 8,
 		"title": "Apartament w centrum z parkingiem",
 		"description": "Przestronny apartament w samym centrum miasta z własnym miejscem parkingowym.",
 		"price": 320000.0,
-		"photo": "https://images.pexels.com/photos/164522/pexels-photo-164522.jpeg?auto=compress&cs=tinysrgb&w=600"
+		"photo": "https://images.pexels.com/photos/460695/pexels-photo-460695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 	},
 	{
 		"id": 9,
 		"title": "Działka rekreacyjna nad jeziorem",
 		"description": "Działka nad jeziorem, doskonała na budowę domku letniskowego lub rekreację.",
 		"price": 80000.0,
-		"photo": "https://images.pexels.com/photos/2183521/pexels-photo-2183521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"photo": "https://images.pexels.com/photos/1127119/pexels-photo-1127119.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 	},
 	{
 		"id": 10,
 		"title": "Mieszkanie z balkonem i widokiem na park",
 		"description": "Mieszkanie z balkonem, w pobliżu parku. Spokojna okolica, idealna dla singla lub pary.",
 		"price": 240000.0,
-		"photo": "https://images.pexels.com/photos/276593/pexels-photo-276593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"photo": "https://images.pexels.com/photos/2326926/pexels-photo-2326926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 	},
 	{
 		"id": 11,
 		"title": "Apartament na ostatnim piętrze z tarasem",
 		"description": "Ekskluzywny apartament na ostatnim piętrze z dużym tarasem. Piękny widok na miasto.",
 		"price": 550000.0,
-		"photo": "https://images.pexels.com/photos/434139/pexels-photo-434139.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"photo": "https://images.pexels.com/photos/2510067/pexels-photo-2510067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 	},
 	{
 		"id": 12,
 		"title": "Dom parterowy z garażem",
 		"description": "Praktyczny dom parterowy z garażem, zlokalizowany w cichej okolicy.",
 		"price": 380000.0,
-		"photo": "https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"photo": "https://images.pexels.com/photos/2468773/pexels-photo-2468773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 	},
 	{
 		"id": 13,
 		"title": "Apartament z widokiem na rzekę",
 		"description": "Przestronny apartament z panoramicznym widokiem na rzekę. W pełni umeblowany.",
 		"price": 480000.0,
-		"photo": "https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"photo": "https://images.pexels.com/photos/259825/pexels-photo-259825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 	},
 	{
 		"id": 14,
 		"title": "Działka pod zabudowę wielorodzinną",
 		"description": "Duża działka zatwierdzona pod zabudowę wielorodzinną. Dogodna lokalizacja.",
 		"price": 200000.0,
-		"photo": "https://images.pexels.com/photos/280216/pexels-photo-280216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"photo": "https://images.pexels.com/photos/3555615/pexels-photo-3555615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 	}
 ]
