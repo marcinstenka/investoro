@@ -4,6 +4,7 @@ import useAdvertisementDetails from '../hooks/useAdvertisementDetails.tsx';
 import { FaMoneyBill } from 'react-icons/fa';
 import { FaHouse } from 'react-icons/fa6';
 import BackButton from '../components/BackButton.tsx';
+import Loading from '../components/Loading.tsx';
 export default function AdvertisementDetails() {
 	let { id } = useParams();
 	const ad = useAdvertisementDetails(id);
@@ -11,6 +12,7 @@ export default function AdvertisementDetails() {
 	if (ad == null) {
 		navigate('/');
 	}
+	if (!ad) return <Loading />;
 	return (
 		<section className='ad'>
 			<h2 className='ad_title'>{ad?.title}</h2>
