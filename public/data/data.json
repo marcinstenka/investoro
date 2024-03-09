@@ -3,7 +3,7 @@
 		"id": 0,
 		"title": "Nowoczesne mieszkanie 2-pokojowe",
 		"description": "To nowo wybudowane mieszkanie o powierzchni 60 metrów kwadratowych, zlokalizowane w sercu miasta, oferuje nie tylko doskonały dostęp do komunikacji publicznej, ale także nowoczesny design i wysoki standard wykończenia. Wnętrza utrzymane w minimalistycznym stylu nadają przestrzeni nowoczesny charakter. W salonie znajduje się otwarta kuchnia, a duże okna zapewniają obfitą ilość naturalnego światła, dodając przytulności całemu miejscu. Cena wynosi 350 000 złotych.",
-		"price": 350000.0,
+		"price": "350 000",
 		"photo": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 60
 	},
@@ -11,7 +11,7 @@
 		"id": 1,
 		"title": "Dom jednorodzinny z ogrodem",
 		"description": "Przestronny dom jednorodzinny o powierzchni 200 metrów kwadratowych, z dużym ogrodem, idealny dla rodzin poszukujących przestrzeni i spokoju. Znajduje się w spokojnej okolicy, z dala od zgiełku miejskiego. Wnętrza domu są jasne i przestronne, a duże okna umożliwiają cieszenie się zielenią ogrodu. Cena nieruchomości wynosi 700 000 złotych.",
-		"price": 700000.0,
+		"price": "700 000",
 		"photo": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 200
 	},
@@ -19,7 +19,7 @@
 		"id": 2,
 		"title": "Mieszkanie na parterze z tarasem",
 		"description": "Komfortowe mieszkanie o powierzchni 75 metrów kwadratowych, usytuowane na parterze z własnym tarasem. Położone w bliskości sklepów i placów zabaw, to doskonała oferta dla rodzin z dziećmi. Wnętrza są nowocześnie urządzone, a duże przeszkolone drzwi prowadzą na przytulny taras, idealny do relaksu. Cena nieruchomości to 280 000 złotych.",
-		"price": 280000.0,
+		"price": "280 000",
 		"photo": "https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 75
 	},
@@ -27,7 +27,7 @@
 		"id": 3,
 		"title": "Luksusowa willa z basenem",
 		"description": "Willa o powierzchni 300 metrów kwadratowych z pięknym widokiem, basenem i nowoczesnym wyposażeniem. Eleganckie wnętrza tworzą atmosferę luksusu, a duże okna pozwalają cieszyć się panoramicznym widokiem. Cena tej ekskluzywnej nieruchomości wynosi 1 500 000 złotych.",
-		"price": 1500000.0,
+		"price": "1 500 000",
 		"photo": "https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 300
 	},
@@ -35,15 +35,15 @@
 		"id": 4,
 		"title": "Apartament z widokiem na morze",
 		"description": "Elegancki apartament o powierzchni 100 metrów kwadratowych z przepięknym widokiem na morze. W pełni umeblowany, z nowoczesnym wystrojem wnętrz. Cena tej nieruchomości wynosi 500 000 złotych.",
-		"price": 500000.0,
+		"price": "500 000",
 		"photo": "https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 100
 	},
 	{
 		"id": 5,
-		"title": "Działka budowlana z planem zagospodarowania",
+		"title": "Działka z planem zagospodarowania",
 		"description": "Działka o powierzchni 500 metrów kwadratowych zatwierdzona pod budowę domu jednorodzinnego. Wszystkie niezbędne media są już w miejscu. Cena tej działki to 120 000 złotych.",
-		"price": 120000.0,
+		"price": "120 000",
 		"photo": "https://images.pexels.com/photos/262405/pexels-photo-262405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 500
 	},
@@ -51,7 +51,7 @@
 		"id": 6,
 		"title": "Mieszkanie w apartamentowcu z ochroną",
 		"description": "Nowoczesne mieszkanie o powierzchni 90 metrów kwadratowych, znajdujące się w budynku z ochroną i parkingiem podziemnym. Wnętrza utrzymane w wysokim standardzie, zapewniające komfort i bezpieczeństwo. Cena nieruchomości to 420 000 złotych.",
-		"price": 420000.0,
+		"price": "420 000",
 		"photo": "https://images.pexels.com/photos/259593/pexels-photo-259593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 90
 	},
@@ -59,7 +59,7 @@
 		"id": 7,
 		"title": "Dom z antresolą i ogrodem",
 		"description": "Dom dwupiętrowy o powierzchni 180 metrów kwadratowych z antresolą, idealny dla rodziny. Duży ogród z miejscem do grillowania zapewnia dodatkową przestrzeń do spędzania czasu na świeżym powietrzu. Cena nieruchomości wynosi 600 000 złotych.",
-		"price": 600000.0,
+		"price": "600 000",
 		"photo": "https://images.pexels.com/photos/2155202/pexels-photo-2155202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 180
 	},
@@ -67,7 +67,7 @@
 		"id": 8,
 		"title": "Apartament w centrum z parkingiem",
 		"description": "Przestronny apartament o powierzchni 110 metrów kwadratowych w samym centrum miasta z własnym miejscem parkingowym. Nowoczesne wnętrza zapewniają wygodę i luksus. Cena nieruchomości to 320 000 złotych.",
-		"price": 320000.0,
+		"price": "320 000",
 		"photo": "https://images.pexels.com/photos/460695/pexels-photo-460695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 110
 	},
@@ -75,7 +75,7 @@
 		"id": 9,
 		"title": "Działka rekreacyjna nad jeziorem",
 		"description": "Działka o powierzchni 800 metrów kwadratowych nad jeziorem, doskonała na budowę domku letniskowego lub rekreację. Piękne otoczenie natury zapewnia spokojny wypoczynek. Cena tej działki wynosi 80 000 złotych.",
-		"price": 80000.0,
+		"price": "80 000",
 		"photo": "https://images.pexels.com/photos/1127119/pexels-photo-1127119.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 800
 	},
@@ -83,15 +83,15 @@
 		"id": 10,
 		"title": "Mieszkanie z balkonem i widokiem na park",
 		"description": "Mieszkanie o powierzchni 50 metrów kwadratowych z balkonem, położone w pobliżu parku. Spokojna okolica sprawia, że jest to idealne miejsce dla singla lub pary. Cena nieruchomości wynosi 240 000 złotych.",
-		"price": 240000.0,
+		"price": "240 000",
 		"photo": "https://images.pexels.com/photos/2326926/pexels-photo-2326926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 50
 	},
 	{
 		"id": 11,
-		"title": "Apartament na ostatnim piętrze z tarasem",
+		"title": "Apartament na piętrze z tarasem",
 		"description": "Ekskluzywny apartament o powierzchni 120 metrów kwadratowych na ostatnim piętrze z dużym tarasem. Piękny widok na miasto sprawia, że to miejsce jest wyjątkowe. Cena nieruchomości wynosi 550 000 złotych.",
-		"price": 550000.0,
+		"price": "550 000",
 		"photo": "https://images.pexels.com/photos/2510067/pexels-photo-2510067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 120
 	},
@@ -99,7 +99,7 @@
 		"id": 12,
 		"title": "Dom parterowy z garażem",
 		"description": "Praktyczny dom parterowy o powierzchni 150 metrów kwadratowych z garażem, zlokalizowany w cichej okolicy. Funkcjonalny układ pomieszczeń sprawia, że jest to idealne miejsce dla rodziny. Cena nieruchomości wynosi 380 000 złotych.",
-		"price": 380000.0,
+		"price": "380 000",
 		"photo": "https://images.pexels.com/photos/2468773/pexels-photo-2468773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 150
 	},
@@ -107,7 +107,7 @@
 		"id": 13,
 		"title": "Apartament z widokiem na rzekę",
 		"description": "Przestronny apartament o powierzchni 80 metrów kwadratowych z panoramicznym widokiem na rzekę. W pełni umeblowany, oferuje komfortowe warunki mieszkalne. Cena nieruchomości wynosi 480 000 złotych.",
-		"price": 480000.0,
+		"price": "480 000",
 		"photo": "https://images.pexels.com/photos/259825/pexels-photo-259825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 80
 	},
@@ -115,7 +115,7 @@
 		"id": 14,
 		"title": "Działka pod zabudowę wielorodzinną",
 		"description": "Duża działka o powierzchni 1000 metrów kwadratowych zatwierdzona pod zabudowę wielorodzinną. Dogodna lokalizacja sprawia, że jest to idealne miejsce na inwestycję. Cena tej działki to 200 000 złotych.",
-		"price": 200000.0,
+		"price": "200 000",
 		"photo": "https://images.pexels.com/photos/3555615/pexels-photo-3555615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 1000
 	}
