@@ -6,21 +6,28 @@
 img {
 	width: 100%;
 }
+.nav {
+	margin: 5px auto 0 auto;
+	width: 80px;
+}
 .content {
 	display: flex;
 	flex-direction: column;
 }
+.desktop_content {
+	display: none;
+}
+.mobile_content {
+	display: block;
+}
 .item {
 	display: flex;
 }
-.img_container {
-	width: 100px;
-	height: 100px;
-}
-.img_container img {
-	width: 100%;
-}
-.nav {
-	margin: 5px auto 0 auto;
-	width: 80px;
+@media (min-width: 800px) {
+	.desktop_content {
+		display: block;
+	}
+	.mobile_content {
+		display: none;
+	}
 }
