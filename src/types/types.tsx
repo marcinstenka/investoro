@@ -2,7 +2,7 @@ export type Advertisement = {
 	id: number;
 	title: string;
 	description: string;
-	price: number;
+	price: string;
 	photo: string;
 	area: number;
 };
