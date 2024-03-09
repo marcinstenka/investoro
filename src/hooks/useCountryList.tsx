@@ -1,0 +1,35 @@
+import React, { useEffect, useState } from 'react';
+import { Country } from '../types/types';
+export default function useCountryList() {
+	const [list, setList] = useState<Country[] | null>(null);
+	const [selectedCountry, setSelectedCountry] = useState<Country | null>(null);
+
+	useEffect(() => {
+		fetch('https://restcountries.com/v3.1/all')
+			.then((res) => res.json())
+			.then((res) => {
+				const countries = res.map((country) => ({
+					label: country.name.common.toString(),
+					flagUrl: country.flags.png,
+				}));
+				setList(countries);
+			});
+	}, []);
+	let countryList;
+	if (list) {
+		countryList = list.map((country) => ({
+			...country,
+			label: (
+				<div style={{ display: 'flex', alignItems: 'center' }}>
+					<img
+						src={country.flagUrl}
+						alt={`Flag of ${country.label}`}
+						style={{ marginRight: '10px', width: '20px', height: 'auto' }}
+					/>
+					{country.label}
+				</div>
+			),
+		}));
+	}
+	return { countryList, selectedCountry, setSelectedCountry };
+}
