@@ -11,11 +11,17 @@ export default function DesktopContent({ data }: DesktopContentProps) {
 			{data &&
 				data.map((item) => (
 					<Link to={`/advertisement/${item.id}`} className='item' key={item.id}>
-						<h1 className='item_title'>{item.title}</h1>
+						<div className='item_info'>
+							<h1 className='item_title'>{item.title}</h1>
+							<div>
+								<p className='item_price'>{item.price} zł</p>
+								<p className='item_area'>{item.area} m²</p>
+							</div>
+						</div>
+
 						<div className='item_photo'>
 							<img src={item.photo} alt={item.description} />
 						</div>
-						<p className='item_price'>{item.price}</p>
 					</Link>
 				))}
 		</div>

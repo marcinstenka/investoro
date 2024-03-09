@@ -37,7 +37,7 @@ export default function MobileContent({ data }: MobileContentProps) {
 									<h1 className='item_title'>{item.title}</h1>
 									<div className='item_stats'>
 										<p className='item_price'>{item.price} zł</p>
-										<p className='item_price'>{item.area} m²</p>
+										<p className='item_area'>{item.area} m²</p>
 									</div>
 								</div>
 							</div>
