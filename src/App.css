@@ -1,7 +1,15 @@
+:root {
+	--bg: #f4f4f4;
+	--info: #fff;
+}
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+body {
+	background-color: var(--bg);
 }
 img {
 	width: 100%;
@@ -19,9 +27,31 @@ img {
 }
 .mobile_content {
 	display: block;
+	margin: 30px 0 0 0;
 }
+
 .item {
 	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+.item_title {
+	font-size: 16px;
+	padding: 0 0 5px;
+	font-weight: normal;
+}
+.item_info {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--info);
+	min-height: 100px;
+	margin: -4px 0 0 0;
+	padding: 5px;
+	border-radius: 0 0 25px 25px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+	color: black !important;
 }
 @media (min-width: 800px) {
 	.desktop_content {
