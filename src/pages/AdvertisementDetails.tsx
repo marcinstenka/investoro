@@ -1,13 +1,16 @@
 import React from 'react';
-import { redirect, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import useAdvertisementDetails from '../hooks/useAdvertisementDetails.tsx';
 import { FaMoneyBill } from 'react-icons/fa';
 import { FaHouse } from 'react-icons/fa6';
 import BackButton from '../components/BackButton.tsx';
 export default function AdvertisementDetails() {
 	let { id } = useParams();
-	if (!id) redirect('/not-found');
 	const ad = useAdvertisementDetails(id);
+	const navigate = useNavigate();
+	if (ad == null) {
+		navigate('/');
+	}
 	return (
 		<section className='ad'>
 			<h2 className='ad_title'>{ad?.title}</h2>

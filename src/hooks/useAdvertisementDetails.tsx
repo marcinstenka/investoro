@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Advertisement } from '../types/types';
 
-export default function useAdvertisementDetails(id: string | undefined) {
+export default function  useAdvertisementDetails(id: string | undefined) {
 	let parsedInt;
 	if (id) parsedInt = parseInt(id);
-	const [data, setData] = useState<Advertisement | null>();
+	const [data, setData] = useState<Advertisement | null>(null);
 	useEffect(() => {
 		fetch('/data/data.json')
 			.then((res) => res.json())
