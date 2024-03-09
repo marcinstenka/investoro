@@ -9,19 +9,21 @@ export default function AdvertisementDetails() {
 	if (!id) redirect('/not-found');
 	const ad = useAdvertisementDetails(id);
 	return (
-		<section>
-			<h2>{ad?.title}</h2>
-			<div>
+		<section className='ad'>
+			<h2 className='ad_title'>{ad?.title}</h2>
+			<div className='ad_photo'>
 				<img src={ad?.photo} alt={ad?.description} />
 			</div>
-			<p>{ad?.description}</p>
-			<div>
-				<FaMoneyBill />
-				<p>{ad?.price} pln</p>
-			</div>
-			<div>
-				<FaHouse />
-				<p>{ad?.area} m^2</p>
+			<p className='ad_description'>{ad?.description}</p>
+			<div className='ad_stats'>
+				<div className='ad_price'>
+					<FaMoneyBill />
+					<p>{ad?.price} pln</p>
+				</div>
+				<div className='ad_area'>
+					<FaHouse />
+					<p>{ad?.area} m^2</p>
+				</div>
 			</div>
 		</section>
 	);
