@@ -14,8 +14,12 @@ export default function DesktopContent({ data }: DesktopContentProps) {
 						<div className='item_info'>
 							<h1 className='item_title'>{item.title}</h1>
 							<div>
-								<p className='item_price'>{item.price} zł</p>
-								<p className='item_area'>{item.area} m²</p>
+								<p className='item_price'>
+									{item.price} <span>zł</span>
+								</p>
+								<p className='item_area'>
+									{item.area} <span>m²</span>
+								</p>
 							</div>
 						</div>
 
