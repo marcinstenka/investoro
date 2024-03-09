@@ -3,6 +3,9 @@
 	margin: 0;
 	padding: 0;
 }
+img {
+	width: 100%;
+}
 .content {
 	display: flex;
 	flex-direction: column;
@@ -16,4 +19,8 @@
 }
 .img_container img {
 	width: 100%;
+}
+.nav {
+	margin: 5px auto 0 auto;
+	width: 80px;
 }
