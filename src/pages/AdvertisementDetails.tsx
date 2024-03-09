@@ -3,7 +3,7 @@ import { redirect, useParams } from 'react-router-dom';
 import useAdvertisementDetails from '../hooks/useAdvertisementDetails.tsx';
 import { FaMoneyBill } from 'react-icons/fa';
 import { FaHouse } from 'react-icons/fa6';
-
+import BackButton from '../components/BackButton.tsx';
 export default function AdvertisementDetails() {
 	let { id } = useParams();
 	if (!id) redirect('/not-found');
@@ -18,13 +18,14 @@ export default function AdvertisementDetails() {
 			<div className='ad_stats'>
 				<div className='ad_price'>
 					<FaMoneyBill />
-					<p>{ad?.price} pln</p>
+					<p>{ad?.price} zł</p>
 				</div>
 				<div className='ad_area'>
 					<FaHouse />
-					<p>{ad?.area} m^2</p>
+					<p>{ad?.area} m²</p>
 				</div>
 			</div>
+			<BackButton />
 		</section>
 	);
 }
