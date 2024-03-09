@@ -1,14 +1,8 @@
 import { useEffect, useState } from 'react';
-type Advertisement = {
-	id: number;
-	title: string;
-	description: string;
-	price: number;
-	photo: string;
-};
+import { Advertisement } from '../types/types';
+
 export default function useFetchAdvertisement() {
 	const [data, setData] = useState<Advertisement[] | null>();
-	console.log(data);
 	useEffect(() => {
 		fetch('/data/data.json')
 			.then((res) => res.json())
