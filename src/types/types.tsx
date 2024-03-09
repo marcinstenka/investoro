@@ -4,5 +4,5 @@ export type Advertisement = {
 	description: string;
 	price: number;
 	photo: string;
-	arae: number;
+	area: number;
 };
