@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { redirect, useParams } from 'react-router-dom';
 import useAdvertisementDetails from '../hooks/useAdvertisementDetails.tsx';
 import { FaMoneyBill } from 'react-icons/fa';
 import { FaHouse } from 'react-icons/fa6';
@@ -7,6 +7,7 @@ import Nav from '../components/Nav.tsx';
 
 export default function AdvertisementDetails() {
 	let { id } = useParams();
+	if (!id) redirect('/not-found');
 	const ad = useAdvertisementDetails(id);
 	return (
 		<>
