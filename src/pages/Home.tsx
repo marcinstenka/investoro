@@ -1,13 +1,10 @@
 import React from 'react';
 import useFetchAdvertisement from '../hooks/useFetchAdvertisement.tsx';
-import Nav from '../components/Nav.tsx';
 
 export default function Home() {
 	const data = useFetchAdvertisement();
 	if (!data) return;
 	return (
-		<>
-			<Nav />
 			<main className='content'>
 				{data.map((item) => (
 					<div className='item' key={item.id}>
@@ -19,6 +16,5 @@ export default function Home() {
 					</div>
 				))}
 			</main>
-		</>
 	);
 }
