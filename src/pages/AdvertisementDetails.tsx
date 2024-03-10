@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import useAdvertisementDetails from '../hooks/useAdvertisementDetails';
+import useAdvertisementDetails from '../hooks/useAdvertisementDetails.tsx';
 import { FaMoneyBill } from 'react-icons/fa';
 import { FaHouse } from 'react-icons/fa6';
 import BackButton from '../components/BackButton.tsx';
