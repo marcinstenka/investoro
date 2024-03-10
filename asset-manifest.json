@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/investoro/static/css/main.7a5d80b5.css",
-    "main.js": "/investoro/static/js/main.39437eb4.js",
+    "main.js": "/investoro/static/js/main.a4f184f1.js",
     "static/media/logo.png": "/investoro/static/media/logo.8664e0b4204aa0ce2a1e.png",
     "index.html": "/investoro/index.html",
     "main.7a5d80b5.css.map": "/investoro/static/css/main.7a5d80b5.css.map",
-    "main.39437eb4.js.map": "/investoro/static/js/main.39437eb4.js.map"
+    "main.a4f184f1.js.map": "/investoro/static/js/main.a4f184f1.js.map"
   },
   "entrypoints": [
     "static/css/main.7a5d80b5.css",
-    "static/js/main.39437eb4.js"
+    "static/js/main.a4f184f1.js"
   ]
 }
