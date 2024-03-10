@@ -36,6 +36,10 @@ span {
 	font-size: 20px;
 	color: var(--mainColor);
 }
+.noResults {
+	text-align: center;
+	padding: 25px;
+}
 .countryList {
 	margin: 15px auto 0 auto;
 }
@@ -58,9 +62,11 @@ span {
 	margin: 0 auto;
 }
 .item_title {
-	font-size: 17px;
+	font-size: 20px;
 	margin: 0 0 5px 0;
 	font-weight: normal;
+	border-bottom: 1px solid var(--mainColor);
+	width: fit-content;
 }
 .item_info {
 	display: flex;
@@ -69,8 +75,9 @@ span {
 	min-height: 130px;
 	margin: -4px 0 0 0;
 	padding: 7px;
-	border-radius: 0 0 25px 25px;
+	border-radius: 0 0 35px 35px;
 	cursor: grab;
+	font-size: 18px;
 }
 .button {
 	margin: 0 auto 30px auto;

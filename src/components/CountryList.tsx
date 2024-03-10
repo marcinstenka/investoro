@@ -1,13 +1,20 @@
 import React from 'react';
 import Select from 'react-select';
 import Loading from './Loading.tsx';
-import useCountryList from '../hooks/useCountryList.tsx';
+import { Country } from '../types/types.tsx';
 
-export default function CountryList() {
-	const { countryList, selectedCountry, setSelectedCountry } = useCountryList();
+type CountryListProps = {
+	countryList: Country[];
+	selectedCountry: Country | null;
+	setSelectedCountry: React.Dispatch<React.SetStateAction<Country | null>>;
+};
 
+export default function CountryList({
+	countryList,
+	selectedCountry,
+	setSelectedCountry,
+}: CountryListProps) {
 	if (!countryList) return <Loading />;
-
 	return (
 		<div className='countryList'>
 			<Select

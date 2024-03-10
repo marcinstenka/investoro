@@ -5,8 +5,9 @@ export type Advertisement = {
 	price: string;
 	photo: string;
 	area: number;
+	country: string;
 };
 export type Country = {
-	label: string;
+	value: string;
 	flagUrl: string;
 };

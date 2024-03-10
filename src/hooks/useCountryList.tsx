@@ -9,7 +9,7 @@ export default function useCountryList() {
 			.then((res) => res.json())
 			.then((res) => {
 				const countries = res.map((country) => ({
-					label: country.name.common.toString(),
+					value: country.name.common.toString(),
 					flagUrl: country.flags.png,
 				}));
 				setList(countries);
@@ -23,10 +23,10 @@ export default function useCountryList() {
 				<div style={{ display: 'flex', alignItems: 'center' }}>
 					<img
 						src={country.flagUrl}
-						alt={`Flag of ${country.label}`}
+						alt={`Flag of ${country.value}`}
 						style={{ marginRight: '10px', width: '20px', height: 'auto' }}
 					/>
-					{country.label}
+					{country.value}
 				</div>
 			),
 		}));

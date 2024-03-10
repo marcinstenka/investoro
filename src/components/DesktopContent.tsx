@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Advertisement } from '../types/types';
+import NoResults from './NoResults.tsx';
 
 type DesktopContentProps = {
 	data: Advertisement[];
@@ -8,7 +9,7 @@ type DesktopContentProps = {
 export default function DesktopContent({ data }: DesktopContentProps) {
 	return (
 		<div className='desktop_content'>
-			{data &&
+			{data.length > 0 ? (
 				data.map((item) => (
 					<Link to={`/advertisement/${item.id}`} className='item' key={item.id}>
 						<div className='item_info'>
@@ -27,7 +28,10 @@ export default function DesktopContent({ data }: DesktopContentProps) {
 							<img src={item.photo} alt={item.description} />
 						</div>
 					</Link>
-				))}
+				))
+			) : (
+				<NoResults />
+			)}
 		</div>
 	);
 }

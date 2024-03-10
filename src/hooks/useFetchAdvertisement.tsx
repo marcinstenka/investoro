@@ -1,13 +1,24 @@
 import { useEffect, useState } from 'react';
-import { Advertisement } from '../types/types';
+import { Advertisement, Country } from '../types/types';
 
-export default function useFetchAdvertisement() {
+export default function useFetchAdvertisement(selectedCountry: Country | null) {
 	const [data, setData] = useState<Advertisement[] | null>();
 	useEffect(() => {
 		fetch('/data/data.json')
 			.then((res) => res.json())
-			.then((res) => setData(res))
+			.then((res) => {
+				if (selectedCountry) {
+					const filteredData = res.filter(
+						(item) => item.country === selectedCountry.value
+					);
+					setData(filteredData);
+				} else {
+					setData(res);
+				}
+			})
 			.catch((e: Error) => console.log(e.message));
-	}, []);
+	}, [selectedCountry]);
+	// console.log(data);
+
 	return data;
 }

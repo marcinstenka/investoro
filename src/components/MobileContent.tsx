@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { Advertisement } from '../types/types';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import NoResults from './NoResults.tsx';
 
 type MobileContentProps = {
 	data: Advertisement[];
@@ -17,16 +18,8 @@ export default function MobileContent({ data }: MobileContentProps) {
 				modules={[Navigation]}
 				slidesPerView={1}
 				spaceBetween={10}
-				breakpoints={{
-					320: {
-						slidesPerView: 2,
-					},
-					600: {
-						slidesPerView: 3,
-					},
-				}}
 			>
-				{data &&
+				{data.length > 0 ? (
 					data.map((item) => (
 						<SwiperSlide>
 							<div className='item' key={item.id}>
@@ -46,7 +39,10 @@ export default function MobileContent({ data }: MobileContentProps) {
 								</div>
 							</div>
 						</SwiperSlide>
-					))}
+					))
+				) : (
+					<NoResults />
+				)}
 			</Swiper>
 		</div>
 	);
