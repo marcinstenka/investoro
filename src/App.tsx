@@ -10,7 +10,7 @@ import Footer from './components/Footer.tsx';
 function App() {
 	return (
 		<>
-			<BrowserRouter basename='/investoro'>
+			<BrowserRouter>
 				<Nav />
 				<Routes>
 					<Route path='/' element={<Home />} />

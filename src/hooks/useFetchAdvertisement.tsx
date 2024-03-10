@@ -4,7 +4,7 @@ import { Advertisement, Country } from '../types/types.tsx';
 export default function useFetchAdvertisement(selectedCountry: Country | null) {
 	const [data, setData] = useState<Advertisement[] | null>();
 	useEffect(() => {
-		fetch('/investoro/data/data.json')
+		fetch('/data/data.json')
 			.then((res) => res.json())
 			.then((res) => {
 				if (selectedCountry) {

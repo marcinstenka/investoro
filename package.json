@@ -1,12 +1,10 @@
 {
 	"name": "investoro",
 	"version": "0.1.0",
-	"homepage": "https://marcinstenka.github.io/investoro",
 	"private": true,
 	"dependencies": {
 		"@types/react": "^18.2.64",
 		"@types/react-dom": "^18.2.21",
-		"gh-pages": "^6.1.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-icons": "^5.0.1",
@@ -49,10 +47,6 @@
 		"@testing-library/dom": "^9.3.4",
 		"@testing-library/jest-dom": "^6.4.2",
 		"@testing-library/react": "^14.2.1",
-		"@testing-library/user-event": "^14.5.2",
-		"@types/jest": "^29.5.12",
-		"babel-jest": "^29.7.0",
-		"jest": "^29.7.0",
-		"ts-jest": "^29.1.2"
+		"@testing-library/user-event": "^14.5.2"
 	}
 }
