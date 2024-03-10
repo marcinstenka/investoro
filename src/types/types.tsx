@@ -10,4 +10,5 @@ export type Advertisement = {
 export type Country = {
 	value: string;
 	flagUrl: string;
+	label: React.JSX.Element;
 };

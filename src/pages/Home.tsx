@@ -9,7 +9,7 @@ import useCountryList from '../hooks/useCountryList.tsx';
 export default function Home() {
 	const { countryList, selectedCountry, setSelectedCountry } = useCountryList();
 	const data = useFetchAdvertisement(selectedCountry);
-	if (!data) return <Loading />;
+	if (!data || !countryList) return <Loading />;
 	return (
 		<main className='content'>
 			<CountryList

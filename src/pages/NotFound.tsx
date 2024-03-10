@@ -1,4 +1,4 @@
 import React from 'react';
 export default function Home() {
-	return <p>404 not found</p>;
+	return <h2 className='noResults'>Strona nie znaleziona!</h2>;
 }

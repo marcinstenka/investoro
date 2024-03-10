@@ -9,7 +9,7 @@ export default function useFetchAdvertisement(selectedCountry: Country | null) {
 			.then((res) => {
 				if (selectedCountry) {
 					const filteredData = res.filter(
-						(item) => item.country === selectedCountry.value
+						(item :Advertisement) => item.country === selectedCountry.value
 					);
 					setData(filteredData);
 				} else {
@@ -18,7 +18,6 @@ export default function useFetchAdvertisement(selectedCountry: Country | null) {
 			})
 			.catch((e: Error) => console.log(e.message));
 	}, [selectedCountry]);
-	// console.log(data);
 
 	return data;
 }

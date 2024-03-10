@@ -8,14 +8,14 @@ export default function useCountryList() {
 		fetch('https://restcountries.com/v3.1/all')
 			.then((res) => res.json())
 			.then((res) => {
-				const countries = res.map((country) => ({
+				const countries = res.map((country: any) => ({
 					value: country.name.common.toString(),
 					flagUrl: country.flags.png,
 				}));
 				setList(countries);
 			});
 	}, []);
-	let countryList;
+	let countryList: Country[] | null = null;
 	if (list) {
 		countryList = list.map((country) => ({
 			...country,

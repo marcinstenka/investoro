@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Advertisement } from '../types/types';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import NoResults from './NoResults.tsx';
+import NoResults from './NoResults';
 
 type MobileContentProps = {
 	data: Advertisement[];
