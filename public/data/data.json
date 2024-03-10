@@ -6,7 +6,8 @@
 		"price": "350 000",
 		"photo": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 60,
-		"country": "Poland"
+		"country": "Poland",
+		"flagUrl": "https://flagcdn.com/w320/pl.png"
 	},
 	{
 		"id": 1,
@@ -15,7 +16,8 @@
 		"price": "700 000",
 		"photo": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 200,
-		"country": "Poland"
+		"country": "Poland",
+		"flagUrl": "https://flagcdn.com/w320/pl.png"
 	},
 	{
 		"id": 2,
@@ -24,7 +26,8 @@
 		"price": "280 000",
 		"photo": "https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 75,
-		"country": "Poland"
+		"country": "Poland",
+		"flagUrl": "https://flagcdn.com/w320/pl.png"
 	},
 	{
 		"id": 3,
@@ -33,7 +36,8 @@
 		"price": "1 500 000",
 		"photo": "https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 300,
-		"country": "Germany"
+		"country": "Germany",
+		"flagUrl": "https://flagcdn.com/w320/de.png"
 	},
 	{
 		"id": 4,
@@ -42,7 +46,8 @@
 		"price": "500 000",
 		"photo": "https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 100,
-		"country": "Germany"
+		"country": "Germany",
+		"flagUrl": "https://flagcdn.com/w320/de.png"
 	},
 	{
 		"id": 5,
@@ -51,7 +56,8 @@
 		"price": "120 000",
 		"photo": "https://images.pexels.com/photos/262405/pexels-photo-262405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 500,
-		"country": "France"
+		"country": "France",
+		"flagUrl": "https://flagcdn.com/w320/fr.png"
 	},
 	{
 		"id": 6,
@@ -60,7 +66,8 @@
 		"price": "420 000",
 		"photo": "https://images.pexels.com/photos/259593/pexels-photo-259593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 90,
-		"country": "Poland"
+		"country": "Poland",
+		"flagUrl": "https://flagcdn.com/w320/pl.png"
 	},
 	{
 		"id": 7,
@@ -69,7 +76,8 @@
 		"price": "600 000",
 		"photo": "https://images.pexels.com/photos/2155202/pexels-photo-2155202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 180,
-		"country": "France"
+		"country": "France",
+		"flagUrl": "https://flagcdn.com/w320/fr.png"
 	},
 	{
 		"id": 8,
@@ -78,7 +86,8 @@
 		"price": "320 000",
 		"photo": "https://images.pexels.com/photos/460695/pexels-photo-460695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 110,
-		"country": "Zambia"
+		"country": "Zambia",
+		"flagUrl": "https://flagcdn.com/w320/zm.png"
 	},
 	{
 		"id": 9,
@@ -87,7 +96,8 @@
 		"price": "80 000",
 		"photo": "https://images.pexels.com/photos/1127119/pexels-photo-1127119.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 800,
-		"country": "Spain"
+		"country": "Spain",
+		"flagUrl": "https://flagcdn.com/w320/es.png"
 	},
 	{
 		"id": 10,
@@ -96,7 +106,8 @@
 		"price": "240 000",
 		"photo": "https://images.pexels.com/photos/2326926/pexels-photo-2326926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 50,
-		"country": "Spain"
+		"country": "Spain",
+		"flagUrl": "https://flagcdn.com/w320/es.png"
 	},
 	{
 		"id": 11,
@@ -105,7 +116,8 @@
 		"price": "550 000",
 		"photo": "https://images.pexels.com/photos/2510067/pexels-photo-2510067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 120,
-		"country": "Germany"
+		"country": "Germany",
+		"flagUrl": "https://flagcdn.com/w320/de.png"
 	},
 	{
 		"id": 12,
@@ -114,7 +126,8 @@
 		"price": "380 000",
 		"photo": "https://images.pexels.com/photos/2468773/pexels-photo-2468773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 150,
-		"country": "Poland"
+		"country": "Poland",
+		"flagUrl": "https://flagcdn.com/w320/pl.png"
 	},
 	{
 		"id": 13,
@@ -123,7 +136,8 @@
 		"price": "480 000",
 		"photo": "https://images.pexels.com/photos/259825/pexels-photo-259825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 80,
-		"country": "United Kingdom"
+		"country": "United Kingdom",
+		"flagUrl": "https://flagcdn.com/w320/gb.png"
 	},
 	{
 		"id": 14,
@@ -132,6 +146,7 @@
 		"price": "200 000",
 		"photo": "https://images.pexels.com/photos/3555615/pexels-photo-3555615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"area": 1000,
-		"country": "United Kingdom"
+		"country": "United Kingdom",
+		"flagUrl": "https://flagcdn.com/w320/gb.png"
 	}
 ]

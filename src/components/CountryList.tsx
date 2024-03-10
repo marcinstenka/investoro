@@ -34,11 +34,13 @@ export default function CountryList({
 						...provided,
 						borderBottom: '1px solid #ccc',
 						backgroundColor: '#ffffff',
+						cursor: 'pointer',
 						color: '#000000',
 					}),
 					control: (provided) => ({
 						...provided,
 						width: '300px',
+						cursor: 'text',
 					}),
 				}}
 			/>

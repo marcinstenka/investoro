@@ -35,6 +35,9 @@ export default function MobileContent({ data }: MobileContentProps) {
 										<p className='item_area'>
 											{item.area} <span>m²</span>
 										</p>
+										<div className='item_flag'>
+											<img src={item.flagUrl} alt={item.flagUrl} />
+										</div>
 									</div>
 								</div>
 							</div>

@@ -6,6 +6,7 @@ export type Advertisement = {
 	photo: string;
 	area: number;
 	country: string;
+	flagUrl: string;
 };
 export type Country = {
 	value: string;
