@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.tsx';
 import AdvertisementDetails from './pages/AdvertisementDetails.tsx';
 import NotFound from './pages/NotFound.tsx';
@@ -10,7 +10,7 @@ import Footer from './components/Footer.tsx';
 function App() {
 	return (
 		<>
-			<HashRouter>
+			<BrowserRouter basename='/investoro'>
 				<Nav />
 				<Routes>
 					<Route path='/' element={<Home />} />
@@ -18,7 +18,7 @@ function App() {
 					<Route path='*' element={<NotFound />} />
 				</Routes>
 				<Footer />
-			</HashRouter>
+			</BrowserRouter>
 		</>
 	);
 }
