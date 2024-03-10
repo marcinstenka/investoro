@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Advertisement } from '../types/types';
+import { Advertisement } from '../types/types.tsx';
 import NoResults from './NoResults.tsx';
 
 type DesktopContentProps = {

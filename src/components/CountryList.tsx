@@ -1,7 +1,7 @@
 import React from 'react';
 import Select from 'react-select';
 import Loading from './Loading.tsx';
-import { Country } from '../types/types';
+import { Country } from '../types/types.tsx';
 
 type CountryListProps = {
 	countryList: Country[];

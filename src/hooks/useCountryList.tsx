@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Country } from '../types/types';
+import { Country } from '../types/types.tsx';
 export default function useCountryList() {
 	const [list, setList] = useState<Country[] | null>(null);
 	const [selectedCountry, setSelectedCountry] = useState<Country | null>(null);

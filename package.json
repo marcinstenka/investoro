@@ -1,10 +1,12 @@
 {
 	"name": "investoro",
 	"version": "0.1.0",
+	"homepage": "https://marcinstenka.github.io/investoro",
 	"private": true,
 	"dependencies": {
 		"@types/react": "^18.2.64",
 		"@types/react-dom": "^18.2.21",
+		"gh-pages": "^6.1.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-icons": "^5.0.1",
@@ -18,7 +20,9 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"eject": "react-scripts eject",
-		"test": "jest"
+		"test": "jest",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [

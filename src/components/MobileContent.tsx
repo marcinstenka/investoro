@@ -2,10 +2,10 @@ import React from 'react';
 import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Link } from 'react-router-dom';
-import { Advertisement } from '../types/types';
+import { Advertisement } from '../types/types.tsx';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import NoResults from './NoResults';
+import NoResults from './NoResults.tsx';
 
 type MobileContentProps = {
 	data: Advertisement[];

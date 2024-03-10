@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Advertisement } from '../types/types.ts';
+import { Advertisement } from '../types/types.tsx';
 
 export default function useAdvertisementDetails(id: string | undefined) {
 	let parsedInt: number;
