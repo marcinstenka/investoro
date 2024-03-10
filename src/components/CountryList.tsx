@@ -22,6 +22,8 @@ export default function CountryList({
 				onChange={(selectedOption) => setSelectedCountry(selectedOption)}
 				value={selectedCountry}
 				isSearchable
+				noOptionsMessage={() => 'Brak dostępnych opcji'}
+				isClearable
 				placeholder='Wybierz kraj...'
 				styles={{
 					menu: (provided, state) => ({
